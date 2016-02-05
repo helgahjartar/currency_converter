@@ -1,0 +1,72 @@
+$bold: bold !important;
+$timesfont: "Times New Roman", Georgia, Serif !important; 
+
+
+body {
+  background-color: #E5E5E2 !important;
+  font-family: $timesfont;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+header {
+  border: black;
+  border-radius: 25px;
+}
+
+a {
+  margin-left: 10%;
+  font-weight: $bold;
+}
+
+h4 {
+  font-weight: $bold;
+}
+
+main {
+  width: 100%;
+}
+
+td {
+  width: 25%;
+}
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+
+
+

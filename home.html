@@ -1,0 +1,61 @@
+<!doctype hmtl>
+<html lang="is">
+	<head>
+		<meta charset="utf-8">
+		<title>Verkefni 4</title>
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	</head>
+	<body class="col-xs-12">
+		<header>
+			<div id="this-carousel-id" class="carousel slide carousel-fade">
+			  <div class="carousel-inner">
+			    <div class="item active">
+			      <img src="gogn/img/lake.jpeg" alt="" />
+			      <div class="carousel-caption">
+			        <h1><strong>Gjaldeyrisreiknivélin!</strong></h1>
+			        <h2><strong>Svarar öllum þínum gjaldeyrisspurningum</strong></h2>
+			      </div>
+			    </div>
+			    <div class="item">
+			      <img src="gogn/img/mountains.jpeg" alt="" />
+			      <div class="carousel-caption">
+			        <h1><strong>Gjaldeyrir</strong></h1>
+			        <h2><strong>Hvernig virkar hann eiginlega?</strong></h2>
+			      </div>
+			    </div>
+			  </div>
+			    <div class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</div>
+			    <div class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</div>
+			</div>
+		</header>
+		<main>
+			<div class="list-group col-xs-12"></div>
+			<form name="converter"></div>
+			<h4>Sækja gögn frá: 
+				<a data-source="m5">m5.is</a>
+				<a data-source="arion" class="arion">Arion banka</a>
+				<a data-source="lb">Landsbankanum</a></h4>
+			<div>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>Mynt</th>
+							<th>Heiti</th>
+							<th>Breyting</th>
+							<th>Gengi</th>
+							<th>Myntbreyta</th>
+						</tr>
+					</thead>
+					<tbody class="currency-data">
+					</tbody>
+				</table>	
+				<div class="loader lead" style="display:none;">Hleð gögnum...</div>		
+			</form>
+			<footer><h4>Gögn sótt frá apis.is</h4></footer>
+			<script src="bower_components/jquery/dist/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+			<script src="main.js"></script>
+		</main>
+	</body>
+</html>
