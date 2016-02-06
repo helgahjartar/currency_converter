@@ -7,7 +7,7 @@
 
 # Developing
 
-You'll need npm and node installed.
+You'll need npm, node and git installed.
 
 1. npm install
 2. bower install
